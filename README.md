@@ -6,7 +6,7 @@ Access [Deployed Link](https://spotifyrecommendation-neoeq2gswqbsrmassk97l2.stre
 
 ```bash
 pip install -r requirements
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 # Running on Docker
