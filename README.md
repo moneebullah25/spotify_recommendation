@@ -2,7 +2,7 @@
 
 # Running Locally
 
-To simply run the application locally on our PC:
+Access [Deployed Link](https://spotifyrecommendation-neoeq2gswqbsrmassk97l2.streamlit.app/) or run the application locally on our PC:
 
 ```bash
 pip install -r requirements
