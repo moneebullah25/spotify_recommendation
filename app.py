@@ -34,7 +34,7 @@ def recommend_songs(user_track_history):
     distances, indices = knn_model.kneighbors(user_songs)
     similar_song_indices = indices.flatten()
     recommended_songs = df.iloc[similar_song_indices].drop(user_track_history, errors='ignore')
-    return recommended_songs[['artist_name', 'track_name']]
+    return recommended_songs[['artist_name', 'track_name']].head(1)
 
 # Streamlit UI
 st.title('Song Recommendation System')
