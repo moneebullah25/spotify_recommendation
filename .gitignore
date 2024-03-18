@@ -1,3 +1,4 @@
 .config
 .ipynb_checkpoints
 spotify-1million-tracks.zip
+node_modules
